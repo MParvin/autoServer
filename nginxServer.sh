@@ -36,5 +36,6 @@ yum install -q -y \
 ln -s /usr/bin/php${PHP_VERSION} /usr/bin/php
 ln -s /usr/bin/php${PHP_VERSION}-phpdbg /usr/bin/phpdbg
 
+# Install composer
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/bin/
